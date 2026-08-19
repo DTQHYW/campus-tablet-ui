@@ -1,0 +1,537 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "系统": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "日期": {
+          "default": "2024/09/01",
+          "type": "string"
+        },
+        "时间段": {
+          "default": "早晨",
+          "type": "string",
+          "enum": [
+            "早晨",
+            "上午",
+            "午间",
+            "下午",
+            "放学后",
+            "夜晚"
+          ]
+        },
+        "当前位置": {
+          "default": "教室",
+          "type": "string"
+        }
+      }
+    },
+    "当前涉及角色": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "便签": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "default": {},
+        "type": "object",
+        "properties": {
+          "角色": {
+            "default": "",
+            "type": "string"
+          },
+          "内容": {
+            "default": "",
+            "type": "string"
+          },
+          "时间": {
+            "default": "",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "行动选项": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "default": {},
+        "type": "object",
+        "properties": {
+          "标题": {
+            "default": "",
+            "type": "string"
+          },
+          "描述": {
+            "default": "",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "近期事件": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "董壹萌": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "黑塔": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "薇薇安": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "路曼曼": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "苏颜": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "倩倩": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "若若": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "露西": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "雅雪": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "花火": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    },
+    "美游": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "好感度": {
+          "default": 0,
+          "type": "number"
+        },
+        "欲望值": {
+          "default": 0,
+          "type": "number"
+        },
+        "亲密度": {
+          "default": 0,
+          "type": "number"
+        },
+        "信任度": {
+          "default": 0,
+          "type": "number"
+        },
+        "关系阶段": {
+          "default": "初识",
+          "type": "string",
+          "enum": [
+            "初识",
+            "熟悉",
+            "暧昧",
+            "亲密"
+          ]
+        },
+        "攻略状态": {
+          "default": "未攻略",
+          "type": "string",
+          "enum": [
+            "未攻略",
+            "攻略中",
+            "已攻略"
+          ]
+        }
+      }
+    }
+  }
+}

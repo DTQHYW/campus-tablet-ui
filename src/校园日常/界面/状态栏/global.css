@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* 平板界面色彩 - 功能语义命名 */
+  --c-surface: #f5f7fa;
+  --c-surface-elevated: #ffffff;
+  --c-surface-muted: #eef1f6;
+  --c-primary: #4a90d9;
+  --c-primary-light: #e8f1fb;
+  --c-accent: #f59e0b;
+  --c-accent-light: #fef3e0;
+  --c-danger: #ef4444;
+  --c-success: #10b981;
+  --c-text: #1f2937;
+  --c-text-muted: #6b7280;
+  --c-text-inverse: #f9fafb;
+  --c-border: #e5e7eb;
+  --c-border-strong: #d1d5db;
+  --c-tab-active: #4a90d9;
+  --c-tab-bg: #f3f4f6;
+  --c-panel-bg: #ffffff;
+  --c-bar-bg: #fde8e8;
+  --c-bar-fill: #f43f5e;
+  --c-bar-desire-bg: #fce7f3;
+  --c-bar-desire-fill: #ec4899;
+  --c-bar-trust-bg: #e0f2fe;
+  --c-bar-trust-fill: #0ea5e9;
+  --c-bar-intimacy-bg: #ede9fe;
+  --c-bar-intimacy-fill: #8b5cf6;
+
+  /* 字体 */
+  --font-ui: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  --font-mono: 'Courier New', monospace;
+}
+
+body {
+  font-family: var(--font-ui);
+  color: var(--c-text);
+  background: transparent;
+  line-height: 1.5;
+}
