@@ -1,0 +1,8 @@
+[
+  {"op":"add","path":"/entryManifest/NPC/美羽","value":{"scope":"specific","abstract":"医务室医生兼护士，懒散但对病人负责，可解答生物题","contents":[{"content":"---\n<npc npc=\"美羽\">"},{"file":"世界书/NPC/美羽.yaml"},{"content":"</npc>"}],"keywords":["美羽","护士","校医"]}},
+  {"op":"add","path":"/entryManifest/NPC/王老师","value":{"scope":"specific","abstract":"班主任兼语文老师，温和啰嗦，关心学生成绩","contents":[{"content":"---\n<npc npc=\"王老师\">"},{"file":"世界书/NPC/王老师.yaml"},{"content":"</npc>"}],"keywords":["王老师","班主任","语文老师"]}},
+  {"op":"add","path":"/entryManifest/NPC/李老师","value":{"scope":"specific","abstract":"数学老师，严格直接，安排黑塔辅导<user>","contents":[{"content":"---\n<npc npc=\"李老师\">"},{"file":"世界书/NPC/李老师.yaml"},{"content":"</npc>"}],"keywords":["李老师","数学老师"]}},
+  {"op":"add","path":"/entryManifest/NPC/陈老师","value":{"scope":"specific","abstract":"体育老师，嗓门大，严格但公正","contents":[{"content":"---\n<npc npc=\"陈老师\">"},{"file":"世界书/NPC/陈老师.yaml"},{"content":"</npc>"}],"keywords":["陈老师","体育老师"]}},
+  {"op":"add","path":"/entryManifest/NPC/张老师","value":{"scope":"specific","abstract":"英语老师，年轻亲切，中英混用","contents":[{"content":"---\n<npc npc=\"张老师\">"},{"file":"世界书/NPC/张老师.yaml"},{"content":"</npc>"}],"keywords":["张老师","英语老师"]}},
+  {"op":"add","path":"/entryManifest/NPC/刘老师","value":{"scope":"specific","abstract":"物理老师，课堂枯燥但内容扎实，不苟言笑","contents":[{"content":"---\n<npc npc=\"刘老师\">"},{"file":"世界书/NPC/刘老师.yaml"},{"content":"</npc>"}],"keywords":["刘老师","物理老师"]}}
+]

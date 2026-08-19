@@ -1,0 +1,1051 @@
+{
+  "projectName": "校园日常",
+  "worldbookName": "校园日常",
+  "form": "charactercard",
+  "mvu": true,
+  "entryManifest": {
+    "世界观": {
+      "校园世界设定": {
+        "scope": "catalog",
+        "keywords": [
+          "校园",
+          "学校",
+          "高中"
+        ],
+        "abstract": "现代普通高中舞台，本班多名女生与<user>存在不同深度关系，医务室兼具社交功能",
+        "contents": [
+          {
+            "content": "---\n<worldview>"
+          },
+          {
+            "file": "世界书/世界观/校园世界设定.yaml"
+          },
+          {
+            "content": "</worldview>"
+          }
+        ]
+      }
+    },
+    "扮演准则": {
+      "扮演准则": {
+        "scope": "catalog",
+        "keywords": [
+          "扮演",
+          "准则",
+          "叙事",
+          "风格"
+        ],
+        "abstract": "第二人称口语轻松叙事，SFW全年龄尺度，多角色群像演绎规范",
+        "contents": [
+          {
+            "content": "---\n<presentation>"
+          },
+          {
+            "file": "世界书/扮演准则/扮演准则.yaml"
+          },
+          {
+            "content": "</presentation>"
+          }
+        ]
+      }
+    },
+    "时间线": {},
+    "地理": {
+      "校园": {
+        "scope": "catalog",
+        "part": "region",
+        "keywords": [
+          "校园",
+          "学校"
+        ],
+        "abstract": "校园整体区域概览，包含教室、医务室、走廊操场、食堂、小卖部、图书馆",
+        "contents": [
+          {
+            "content": "---\n<region region=\"校园\">"
+          },
+          {
+            "file": "世界书/地理/校园.yaml"
+          },
+          {
+            "content": "</region>"
+          }
+        ]
+      },
+      "教室": {
+        "scope": "specific",
+        "part": "scene",
+        "keywords": [
+          "教室",
+          "上课",
+          "课间",
+          "座位"
+        ],
+        "abstract": "<user>所在班级教室，与路曼曼同桌，全部核心角色常驻",
+        "contents": [
+          {
+            "content": "---\n<scene scene=\"教室\">"
+          },
+          {
+            "file": "世界书/地理/教室.yaml"
+          },
+          {
+            "content": "</scene>"
+          }
+        ]
+      },
+      "医务室": {
+        "scope": "specific",
+        "part": "scene",
+        "keywords": [
+          "医务室",
+          "护士",
+          "看病",
+          "休息"
+        ],
+        "abstract": "医务室，美羽常驻，花火逃课去处，可解答生物难题",
+        "contents": [
+          {
+            "content": "---\n<scene scene=\"医务室\">"
+          },
+          {
+            "file": "世界书/地理/医务室.yaml"
+          },
+          {
+            "content": "</scene>"
+          }
+        ]
+      }
+    },
+    "角色": {
+      "角色速览": {
+        "scope": "catalog",
+        "keywords": [
+          "角色",
+          "总览",
+          "速览"
+        ],
+        "abstract": "市立第三高中全部角色速览，含<user>、11名核心角色、18名NPC",
+        "contents": [
+          {
+            "content": "---\n<character_catalog>"
+          },
+          {
+            "file": "世界书/角色/角色速览.yaml"
+          },
+          {
+            "content": "</character_catalog>"
+          }
+        ]
+      },
+      "董壹萌_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "董壹萌",
+          "妹妹"
+        ],
+        "abstract": "董壹萌基础信息：<user>亲妹妹，同班，已攻略，成绩偏下",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"董壹萌\">"
+          },
+          {
+            "file": "世界书/角色/董壹萌/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "董壹萌_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "董壹萌",
+          "妹妹"
+        ],
+        "abstract": "董壹萌性格：活泼底色，开朗恋兄占有欲主色调，撒娇任性点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"董壹萌\">"
+          },
+          {
+            "file": "世界书/角色/董壹萌/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "黑塔_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "黑塔",
+          "学霸"
+        ],
+        "abstract": "黑塔基础信息：班级第一年段第二，每周为<user>辅导测试，已攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"黑塔\">"
+          },
+          {
+            "file": "世界书/角色/黑塔/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "黑塔_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "黑塔",
+          "学霸"
+        ],
+        "abstract": "黑塔性格：理性底色，高冷傲娇好强主色调，隐秘在意害羞点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"黑塔\">"
+          },
+          {
+            "file": "世界书/角色/黑塔/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "薇薇安_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "薇薇安",
+          "董哥哥"
+        ],
+        "abstract": "薇薇安基础信息：青梅竹马邻居同班，红瞳泪痣紫发呆毛，已攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"薇薇安\">"
+          },
+          {
+            "file": "世界书/角色/薇薇安/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "薇薇安_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "薇薇安",
+          "董哥哥"
+        ],
+        "abstract": "薇薇安性格：天然底色，天然呆黏人撒娇主色调，狡黠嫉妒点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"薇薇安\">"
+          },
+          {
+            "file": "世界书/角色/薇薇安/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "路曼曼_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "路曼曼",
+          "同桌",
+          "学委"
+        ],
+        "abstract": "路曼曼基础信息：同桌，学习委员兼副班长，互看不顺眼，未攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"路曼曼\">"
+          },
+          {
+            "file": "世界书/角色/路曼曼/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "路曼曼_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "路曼曼",
+          "同桌",
+          "学委"
+        ],
+        "abstract": "路曼曼性格：认真底色，负责傲气爱较劲主色调，带刺好强点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"路曼曼\">"
+          },
+          {
+            "file": "世界书/角色/路曼曼/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "苏颜_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "苏颜",
+          "班长",
+          "校花"
+        ],
+        "abstract": "苏颜基础信息：班长校花，沉默寡言有距离感，未攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"苏颜\">"
+          },
+          {
+            "file": "世界书/角色/苏颜/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "苏颜_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "苏颜",
+          "班长",
+          "校花"
+        ],
+        "abstract": "苏颜性格：善良底色，沉默寡言努力主色调，温和距离感点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"苏颜\">"
+          },
+          {
+            "file": "世界书/角色/苏颜/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "倩倩_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "倩倩"
+        ],
+        "abstract": "倩倩基础信息：若若姐姐，绿色长双马尾，心思不在学习，未攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"倩倩\">"
+          },
+          {
+            "file": "世界书/角色/倩倩/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "倩倩_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "倩倩"
+        ],
+        "abstract": "倩倩性格：外向底色，俏皮爱逗人爱闯祸主色调，责任感反差萌点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"倩倩\">"
+          },
+          {
+            "file": "世界书/角色/倩倩/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "若若_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "若若"
+        ],
+        "abstract": "若若基础信息：倩倩妹妹，绿色双马尾，长相可爱，未攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"若若\">"
+          },
+          {
+            "file": "世界书/角色/若若/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "若若_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "若若"
+        ],
+        "abstract": "若若性格：天真底色，呆萌孩子气懒散主色调，随意我行我素点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"若若\">"
+          },
+          {
+            "file": "世界书/角色/若若/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "露西_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "露西",
+          "大小姐"
+        ],
+        "abstract": "露西基础信息：金发大小姐，家庭富裕，校外多补习班，未攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"露西\">"
+          },
+          {
+            "file": "世界书/角色/露西/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "露西_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "露西",
+          "大小姐"
+        ],
+        "abstract": "露西性格：优雅底色，傲娇爱逞强大小姐风范主色调，害羞高傲点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"露西\">"
+          },
+          {
+            "file": "世界书/角色/露西/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "雅雪_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "雅雪"
+        ],
+        "abstract": "雅雪基础信息：倩倩闺蜜，班级年龄最小，萝莉体型淡红发，未攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"雅雪\">"
+          },
+          {
+            "file": "世界书/角色/雅雪/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "雅雪_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "雅雪"
+        ],
+        "abstract": "雅雪性格：热情底色，大惊小怪好奇心强颇有大人样主色调，自来熟疯丫头点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"雅雪\">"
+          },
+          {
+            "file": "世界书/角色/雅雪/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "花火_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "花火"
+        ],
+        "abstract": "花火基础信息：黑长直双马尾雌小鬼，常逃课去医务室，未攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"花火\">"
+          },
+          {
+            "file": "世界书/角色/花火/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "花火_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "花火"
+        ],
+        "abstract": "花火性格：调皮底色，恶作剧找乐子戏谑主色调，逃课暧昧玩笑点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"花火\">"
+          },
+          {
+            "file": "世界书/角色/花火/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      },
+      "美游_基础信息": {
+        "scope": "specific",
+        "part": "basic",
+        "keywords": [
+          "美游"
+        ],
+        "abstract": "美游基础信息：班级小透明，149cm娇小，偏科文科，未攻略",
+        "contents": [
+          {
+            "content": "---\n<character_basic character=\"美游\">"
+          },
+          {
+            "file": "世界书/角色/美游/基础信息.yaml"
+          },
+          {
+            "content": "</character_basic>"
+          }
+        ]
+      },
+      "美游_性格调色盘": {
+        "scope": "specific",
+        "part": "personality",
+        "keywords": [
+          "美游"
+        ],
+        "abstract": "美游性格：温柔底色，胆小自卑社恐主色调，习惯道歉自我否定渴望被看见点缀",
+        "contents": [
+          {
+            "content": "---\n<character_personality character=\"美游\">"
+          },
+          {
+            "file": "世界书/角色/美游/性格调色盘.yaml"
+          },
+          {
+            "content": "</character_personality>"
+          }
+        ]
+      }
+    },
+    "NPC": {
+      "美羽": {
+        "scope": "specific",
+        "keywords": [
+          "美羽",
+          "护士",
+          "校医"
+        ],
+        "abstract": "医务室医生兼护士，懒散但对病人负责，可解答生物题",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"美羽\">"
+          },
+          {
+            "file": "世界书/NPC/美羽.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "王老师": {
+        "scope": "specific",
+        "keywords": [
+          "王老师",
+          "班主任",
+          "语文老师"
+        ],
+        "abstract": "班主任兼语文老师，温和啰嗦，关心学生成绩",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"王老师\">"
+          },
+          {
+            "file": "世界书/NPC/王老师.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "李老师": {
+        "scope": "specific",
+        "keywords": [
+          "李老师",
+          "数学老师"
+        ],
+        "abstract": "数学老师，严格直接，安排黑塔辅导<user>",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"李老师\">"
+          },
+          {
+            "file": "世界书/NPC/李老师.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "陈老师": {
+        "scope": "specific",
+        "keywords": [
+          "陈老师",
+          "体育老师"
+        ],
+        "abstract": "体育老师，嗓门大，严格但公正",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"陈老师\">"
+          },
+          {
+            "file": "世界书/NPC/陈老师.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "张老师": {
+        "scope": "specific",
+        "keywords": [
+          "张老师",
+          "英语老师"
+        ],
+        "abstract": "英语老师，年轻亲切，中英混用",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"张老师\">"
+          },
+          {
+            "file": "世界书/NPC/张老师.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "刘老师": {
+        "scope": "specific",
+        "keywords": [
+          "刘老师",
+          "物理老师"
+        ],
+        "abstract": "物理老师，课堂枯燥但内容扎实，不苟言笑",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"刘老师\">"
+          },
+          {
+            "file": "世界书/NPC/刘老师.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "食堂阿姨": {
+        "scope": "specific",
+        "keywords": [
+          "食堂阿姨",
+          "食堂",
+          "打饭"
+        ],
+        "abstract": "食堂打饭工作人员，热情大方，给熟面孔多打菜",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"食堂阿姨\">"
+          },
+          {
+            "file": "世界书/NPC/食堂阿姨.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "图书管理员": {
+        "scope": "specific",
+        "keywords": [
+          "图书管理员",
+          "图书馆"
+        ],
+        "abstract": "图书馆管理员，安静严谨，维持秩序",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"图书管理员\">"
+          },
+          {
+            "file": "世界书/NPC/图书管理员.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "学生会长": {
+        "scope": "specific",
+        "keywords": [
+          "学生会长",
+          "学生会"
+        ],
+        "abstract": "学生会长高三学姐，干练负责，统筹学校活动",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"学生会长\">"
+          },
+          {
+            "file": "世界书/NPC/学生会长.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "门卫大叔": {
+        "scope": "specific",
+        "keywords": [
+          "门卫大叔",
+          "门卫",
+          "校门"
+        ],
+        "abstract": "校门口保安，和蔼健谈，管迟到登记",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"门卫大叔\">"
+          },
+          {
+            "file": "世界书/NPC/门卫大叔.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "小卖部姐姐": {
+        "scope": "specific",
+        "keywords": [
+          "小卖部姐姐",
+          "小卖部"
+        ],
+        "abstract": "小卖部店员，年轻亲切，记得熟客常买的东西",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"小卖部姐姐\">"
+          },
+          {
+            "file": "世界书/NPC/小卖部姐姐.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "校长": {
+        "scope": "specific",
+        "keywords": [
+          "校长"
+        ],
+        "abstract": "学校校长，威严，典礼讲话爱提校训",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"校长\">"
+          },
+          {
+            "file": "世界书/NPC/校长.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "广播站站长": {
+        "scope": "specific",
+        "keywords": [
+          "广播站",
+          "广播",
+          "站长"
+        ],
+        "abstract": "广播站站长高二学姐，广播专业利落私下活泼，可点歌",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"广播站站长\">"
+          },
+          {
+            "file": "世界书/NPC/广播站站长.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "隔壁班女同学": {
+        "scope": "specific",
+        "keywords": [
+          "隔壁班"
+        ],
+        "abstract": "隔壁班女生，活泼八卦，走廊偶遇闲聊",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"隔壁班女同学\">"
+          },
+          {
+            "file": "世界书/NPC/隔壁班女同学.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "隔壁班男同学": {
+        "scope": "specific",
+        "keywords": [
+          "隔壁班"
+        ],
+        "abstract": "隔壁班男生，<user>的普通朋友，走廊闲聊打球",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"隔壁班男同学\">"
+          },
+          {
+            "file": "世界书/NPC/隔壁班男同学.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "赵强": {
+        "scope": "specific",
+        "keywords": [
+          "赵强"
+        ],
+        "abstract": "本班坏男生，爱找茬挑衅，有孙小飞跟着",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"赵强\">"
+          },
+          {
+            "file": "世界书/NPC/赵强.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "孙小飞": {
+        "scope": "specific",
+        "keywords": [
+          "孙小飞"
+        ],
+        "abstract": "赵强小弟，帮腔打杂，单独时怂",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"孙小飞\">"
+          },
+          {
+            "file": "世界书/NPC/孙小飞.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      },
+      "周主任": {
+        "scope": "specific",
+        "keywords": [
+          "周主任",
+          "年段长"
+        ],
+        "abstract": "年段长，管纪律巡查各班，处分违纪",
+        "contents": [
+          {
+            "content": "---\n<npc npc=\"周主任\">"
+          },
+          {
+            "file": "世界书/NPC/周主任.yaml"
+          },
+          {
+            "content": "</npc>"
+          }
+        ]
+      }
+    },
+    "事件": {},
+    "MVU": {}
+  },
+  "typeLists": {
+    "before_char": [
+      "世界观",
+      "扮演准则",
+      "时间线",
+      "地理"
+    ],
+    "after_char": [
+      "角色",
+      "NPC"
+    ],
+    "depth": [
+      "事件",
+      "MVU"
+    ]
+  },
+  "strategyThresholds": {
+    "角色": {
+      "basic": {
+        "threshold": 5,
+        "required": true
+      },
+      "other": {
+        "threshold": 2,
+        "required": false
+      },
+      "personality": {
+        "threshold": 2,
+        "required": true
+      },
+      "tri_faceted": {
+        "threshold": 2,
+        "required": false
+      }
+    },
+    "事件": 0,
+    "地理": {
+      "faction": {
+        "threshold": 4,
+        "required": false
+      },
+      "region": {
+        "threshold": 4,
+        "required": false
+      },
+      "scene": {
+        "threshold": 4,
+        "required": false
+      }
+    },
+    "MVU": {
+      "initvar": {
+        "threshold": null,
+        "required": false
+      },
+      "output_format": {
+        "threshold": "Infinity",
+        "required": false
+      },
+      "update_rules": {
+        "threshold": "Infinity",
+        "required": false
+      },
+      "variable_list": {
+        "threshold": "Infinity",
+        "required": false
+      }
+    },
+    "NPC": 0,
+    "扮演准则": "Infinity",
+    "时间线": {
+      "history": {
+        "threshold": "Infinity",
+        "required": false
+      },
+      "plot": {
+        "threshold": "Infinity",
+        "required": false
+      }
+    },
+    "世界观": "Infinity"
+  },
+  "partOrder": {
+    "角色": [
+      "basic",
+      "personality",
+      "tri_faceted",
+      "other"
+    ],
+    "地理": [
+      "region",
+      "scene",
+      "faction"
+    ],
+    "MVU": [
+      "variable_list",
+      "update_rules",
+      "output_format",
+      "initvar"
+    ],
+    "时间线": [
+      "history",
+      "plot"
+    ]
+  },
+  "depth_defaults": {
+    "role": "system",
+    "depth": 0
+  },
+  "description": "",
+  "first_messages": [],
+  "creator": "",
+  "creator_notes": "",
+  "version": "1.0",
+  "create_date": "2026-08-19T08:29:07.443Z",
+  "extensions": {
+    "tavern_helper": {
+      "scripts": {},
+      "variables": {}
+    },
+    "talkativeness": "0.5",
+    "fav": false,
+    "depth_prompt": {
+      "prompt": "",
+      "depth": 4,
+      "role": "system"
+    }
+  },
+  "regex_scripts": {}
+}

@@ -1,0 +1,8 @@
+[
+  {"op":"add","path":"/entryManifest/NPC/广播站站长","value":{"scope":"specific","abstract":"广播站站长高二学姐，广播专业利落私下活泼，可点歌","contents":[{"content":"---\n<npc npc=\"广播站站长\">"},{"file":"世界书/NPC/广播站站长.yaml"},{"content":"</npc>"}],"keywords":["广播站","广播","站长"]}},
+  {"op":"add","path":"/entryManifest/NPC/隔壁班女同学","value":{"scope":"specific","abstract":"隔壁班女生，活泼八卦，走廊偶遇闲聊","contents":[{"content":"---\n<npc npc=\"隔壁班女同学\">"},{"file":"世界书/NPC/隔壁班女同学.yaml"},{"content":"</npc>"}],"keywords":["隔壁班"]}},
+  {"op":"add","path":"/entryManifest/NPC/隔壁班男同学","value":{"scope":"specific","abstract":"隔壁班男生，<user>的普通朋友，走廊闲聊打球","contents":[{"content":"---\n<npc npc=\"隔壁班男同学\">"},{"file":"世界书/NPC/隔壁班男同学.yaml"},{"content":"</npc>"}],"keywords":["隔壁班"]}},
+  {"op":"add","path":"/entryManifest/NPC/赵强","value":{"scope":"specific","abstract":"本班坏男生，爱找茬挑衅，有孙小飞跟着","contents":[{"content":"---\n<npc npc=\"赵强\">"},{"file":"世界书/NPC/赵强.yaml"},{"content":"</npc>"}],"keywords":["赵强"]}},
+  {"op":"add","path":"/entryManifest/NPC/孙小飞","value":{"scope":"specific","abstract":"赵强小弟，帮腔打杂，单独时怂","contents":[{"content":"---\n<npc npc=\"孙小飞\">"},{"file":"世界书/NPC/孙小飞.yaml"},{"content":"</npc>"}],"keywords":["孙小飞"]}},
+  {"op":"add","path":"/entryManifest/NPC/周主任","value":{"scope":"specific","abstract":"年段长，管纪律巡查各班，处分违纪","contents":[{"content":"---\n<npc npc=\"周主任\">"},{"file":"世界书/NPC/周主任.yaml"},{"content":"</npc>"}],"keywords":["周主任","年段长"]}}
+]

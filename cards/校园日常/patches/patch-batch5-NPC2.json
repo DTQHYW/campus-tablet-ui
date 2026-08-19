@@ -1,0 +1,8 @@
+[
+  {"op":"add","path":"/entryManifest/NPC/食堂阿姨","value":{"scope":"specific","abstract":"食堂打饭工作人员，热情大方，给熟面孔多打菜","contents":[{"content":"---\n<npc npc=\"食堂阿姨\">"},{"file":"世界书/NPC/食堂阿姨.yaml"},{"content":"</npc>"}],"keywords":["食堂阿姨","食堂","打饭"]}},
+  {"op":"add","path":"/entryManifest/NPC/图书管理员","value":{"scope":"specific","abstract":"图书馆管理员，安静严谨，维持秩序","contents":[{"content":"---\n<npc npc=\"图书管理员\">"},{"file":"世界书/NPC/图书管理员.yaml"},{"content":"</npc>"}],"keywords":["图书管理员","图书馆"]}},
+  {"op":"add","path":"/entryManifest/NPC/学生会长","value":{"scope":"specific","abstract":"学生会长高三学姐，干练负责，统筹学校活动","contents":[{"content":"---\n<npc npc=\"学生会长\">"},{"file":"世界书/NPC/学生会长.yaml"},{"content":"</npc>"}],"keywords":["学生会长","学生会"]}},
+  {"op":"add","path":"/entryManifest/NPC/门卫大叔","value":{"scope":"specific","abstract":"校门口保安，和蔼健谈，管迟到登记","contents":[{"content":"---\n<npc npc=\"门卫大叔\">"},{"file":"世界书/NPC/门卫大叔.yaml"},{"content":"</npc>"}],"keywords":["门卫大叔","门卫","校门"]}},
+  {"op":"add","path":"/entryManifest/NPC/小卖部姐姐","value":{"scope":"specific","abstract":"小卖部店员，年轻亲切，记得熟客常买的东西","contents":[{"content":"---\n<npc npc=\"小卖部姐姐\">"},{"file":"世界书/NPC/小卖部姐姐.yaml"},{"content":"</npc>"}],"keywords":["小卖部姐姐","小卖部"]}},
+  {"op":"add","path":"/entryManifest/NPC/校长","value":{"scope":"specific","abstract":"学校校长，威严，典礼讲话爱提校训","contents":[{"content":"---\n<npc npc=\"校长\">"},{"file":"世界书/NPC/校长.yaml"},{"content":"</npc>"}],"keywords":["校长"]}}
+]

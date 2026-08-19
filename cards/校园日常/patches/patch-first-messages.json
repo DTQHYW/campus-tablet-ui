@@ -1,0 +1,8 @@
+[
+  {"op":"add","path":"/first_messages/-","value":"开场白/0.txt"},
+  {"op":"add","path":"/first_messages/-","value":"开场白/1.txt"},
+  {"op":"add","path":"/first_messages/-","value":"开场白/2.txt"},
+  {"op":"add","path":"/first_messages/-","value":"开场白/3.txt"},
+  {"op":"add","path":"/first_messages/-","value":"开场白/4.txt"},
+  {"op":"add","path":"/initvar_overrides/开场白~14.txt","value":"开场白/initvar/4.yaml"}
+]

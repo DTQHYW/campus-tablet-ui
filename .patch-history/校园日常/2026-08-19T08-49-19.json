@@ -1,0 +1,174 @@
+{
+  "projectName": "校园日常",
+  "worldbookName": "校园日常",
+  "form": "charactercard",
+  "mvu": true,
+  "entryManifest": {
+    "世界观": {
+      "校园世界设定": {
+        "scope": "catalog",
+        "keywords": [
+          "校园",
+          "学校",
+          "高中"
+        ],
+        "abstract": "现代普通高中舞台，本班多名女生与<user>存在不同深度关系，医务室兼具社交功能",
+        "contents": [
+          {
+            "content": "---\n<worldview>"
+          },
+          {
+            "file": "世界书/世界观/校园世界设定.yaml"
+          },
+          {
+            "content": "</worldview>"
+          }
+        ]
+      }
+    },
+    "扮演准则": {
+      "扮演准则": {
+        "scope": "catalog",
+        "abstract": "第二人称口语轻松叙事，SFW全年龄尺度，多角色群像演绎规范",
+        "contents": [
+          {
+            "content": "---\n<presentation>"
+          },
+          {
+            "file": "世界书/扮演准则/扮演准则.yaml"
+          },
+          {
+            "content": "</presentation>"
+          }
+        ],
+        "keywords": [
+          "扮演",
+          "准则",
+          "叙事",
+          "风格"
+        ]
+      }
+    },
+    "时间线": {},
+    "地理": {},
+    "角色": {},
+    "NPC": {},
+    "事件": {},
+    "MVU": {}
+  },
+  "typeLists": {
+    "before_char": [
+      "世界观",
+      "扮演准则",
+      "时间线",
+      "地理"
+    ],
+    "after_char": [
+      "角色",
+      "NPC"
+    ],
+    "depth": [
+      "事件",
+      "MVU"
+    ]
+  },
+  "strategyThresholds": {
+    "角色": {
+      "basic": {
+        "threshold": 5,
+        "required": true
+      },
+      "other": {
+        "threshold": 2,
+        "required": false
+      },
+      "personality": {
+        "threshold": 2,
+        "required": true
+      },
+      "tri_faceted": {
+        "threshold": 2,
+        "required": false
+      }
+    },
+    "事件": 0,
+    "地理": {
+      "faction": {
+        "threshold": 4,
+        "required": false
+      },
+      "region": {
+        "threshold": 4,
+        "required": false
+      },
+      "scene": {
+        "threshold": 4,
+        "required": false
+      }
+    },
+    "MVU": {
+      "initvar": {
+        "threshold": null,
+        "required": false
+      },
+      "output_format": {
+        "threshold": "Infinity",
+        "required": false
+      },
+      "update_rules": {
+        "threshold": "Infinity",
+        "required": false
+      },
+      "variable_list": {
+        "threshold": "Infinity",
+        "required": false
+      }
+    },
+    "NPC": 0,
+    "扮演准则": "Infinity",
+    "时间线": {
+      "history": {
+        "threshold": "Infinity",
+        "required": false
+      },
+      "plot": {
+        "threshold": "Infinity",
+        "required": false
+      }
+    },
+    "世界观": "Infinity"
+  },
+  "partOrder": {
+    "角色": [
+      "basic",
+      "personality",
+      "tri_faceted",
+      "other"
+    ],
+    "地理": [
+      "region",
+      "scene",
+      "faction"
+    ],
+    "MVU": [
+      "variable_list",
+      "update_rules",
+      "output_format",
+      "initvar"
+    ],
+    "时间线": [
+      "history",
+      "plot"
+    ]
+  },
+  "depth_defaults": {
+    "role": "system",
+    "depth": 0
+  },
+  "description": "",
+  "first_messages": [],
+  "creator": "",
+  "creator_notes": "",
+  "version": "1.0",
+  "create_date": "2026-08-19T08:29:07.443Z"
+}

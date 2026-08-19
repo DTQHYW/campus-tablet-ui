@@ -1,0 +1,1 @@
+[{"op":"add","path":"/entryManifest/地理/校园","value":{"part":"region","scope":"catalog","abstract":"校园整体区域概览，包含教室、医务室、走廊操场、食堂、小卖部、图书馆","contents":[{"content":"---\n<region region=\"校园\">"},{"file":"世界书/地理/校园.yaml"},{"content":"</region>"}],"keywords":["校园","学校"]}}]

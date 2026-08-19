@@ -1,0 +1,4 @@
+[
+  {"op":"add","path":"/initvar_overrides","value":{}},
+  {"op":"add","path":"/initvar_overrides/开场白~14.txt","value":"开场白/initvar/4.yaml"}
+]

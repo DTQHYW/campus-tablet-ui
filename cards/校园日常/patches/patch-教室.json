@@ -1,0 +1,1 @@
+[{"op":"add","path":"/entryManifest/地理/教室","value":{"part":"scene","scope":"specific","abstract":"<user>所在班级教室，与路曼曼同桌，全部核心角色常驻","contents":[{"content":"---\n<scene scene=\"教室\">"},{"file":"世界书/地理/教室.yaml"},{"content":"</scene>"}],"keywords":["教室","上课","课间","座位"]}}]
